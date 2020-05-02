@@ -1,0 +1,19 @@
+<view class="page-body">
+	<form bindsubmit="onSubmit">
+		<view class="page-section">
+			<view class="weui-cells__title">课程名称</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" name="name" auto-focus placeholder="在这里输入课程名称" />
+				</view>
+			</view>
+			<view class="weui-cells__title">课程简介</view>
+			<view class="weui-cells weui-cells_after-title">
+				<view class="weui-cell weui-cell_input">
+					<input class="weui-input" name="desc" placeholder="在这里输入课程简介" />
+				</view>
+			</view>
+      <button form-type="submit">提交</button>
+		</view>
+	</form>
+</view>

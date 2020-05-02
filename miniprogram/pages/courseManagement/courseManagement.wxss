@@ -1,0 +1,10 @@
+/* miniprogram/pages/courseManagement/courseManagement.wxss */
+navigator.newCourse {
+  display: flex;
+  padding: 20px 0;
+  bottom: 0;
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
